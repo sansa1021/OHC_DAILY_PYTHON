@@ -1,0 +1,13 @@
+Q1.
+def solution(num1, num2):
+    answer = num1 * num2
+    return answer
+
+Q2.
+    price = 3000
+count = 3
+print(price * count);
+
+Q3.
+team = ["엔비", "니콜", "빌리"] 
+print(team[0]);

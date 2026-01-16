@@ -3,10 +3,10 @@ https://school.programmers.co.kr/learn/courses/30/lessons/59404
 (Q1문제는 프로그래머스 링크로 첨부)
 
 Q2.
-조건 조회 (SELECT & WHERE) 
-employees 테이블에서 직무(job_title)가 'Data Engineer'인 사람들의 
-**이름(name)**과 **입사일(hire_date)**만 보고 싶어요. 쿼리를 어떻게 짜야 할까요?
+조건 조회 문제 
+order_items 테이블에서 **주문 상태(order_status 혹은 status)**가 'Shipped'(혹은 특정 상태)인 데이터의 
+**주문 번호(order_id)**와 **주문 날짜(order_date)**를 조회해보세요!
 
 Q3.
-정렬하기 (ORDER BY) 
-products 테이블에 있는 상품들을 가격(price)이 비싼 순서대로(내림차순) 정렬해서 전체 컬럼을 보여주세요.
+정렬 문제 
+order_items 테이블에서 **결제 금액(amount 혹은 price)**이 가장 높은 순서대로(내림차순) 정렬해서, 상위 10개만 뽑아보세요!

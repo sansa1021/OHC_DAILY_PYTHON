@@ -4,5 +4,12 @@ FROM ANIMAL_INS
 ORDER BY NAME ASC, DATETIME DESC; 
 
 Q2.
+select order_id, order_date
+from order_items
+where order_status = "completed";
 
 Q3.
+select order_id 
+from order_items
+order by unit_price desc
+limit 10;
