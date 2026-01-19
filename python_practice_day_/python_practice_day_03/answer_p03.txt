@@ -1,0 +1,14 @@
+Q1.
+def solution(num1, num2):
+    result = int(num1 / num2)  
+    return result 
+
+Q2.
+df = pd.DataFrame(data)
+result = df.loc[df["payment_method"] == "card", ["order_id", "product_name", "unit_price"]]
+print(result)
+
+Q3.
+target_students = df.loc[(df["region"] == "SEOUL") & (df["segment"] == "new")]
+result = df.sort_values(by = "signup_date", ascending=False)
+print(result)

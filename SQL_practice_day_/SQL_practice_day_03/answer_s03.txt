@@ -1,0 +1,16 @@
+Q1.
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS 
+WHERE NAME LIKE '%EL%' AND ANIMAL_TYPE = 'Dog'
+ORDER BY NAME;
+
+Q2.
+select course_name, list_price
+from courses 
+where category = 'sql';
+
+Q3.
+select *
+from game_logs
+where level >= 20
+order by log_date desc;

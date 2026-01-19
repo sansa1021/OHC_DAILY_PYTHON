@@ -2,11 +2,11 @@ Q1.
 https://school.programmers.co.kr/learn/courses/30/lessons/120805
 (Q1문제는 프로그래머스 링크로 첨부)
 
-환경: VS Code (Jupyter Notebook) 데이터: order_items.csv (이커머스), students.csv (교육)
+
 Q2.
-order_items.csv 데이터를 로드하세요. **결제 수단(payment_method)이 'card'**인 주문만 필터링해서, 주문번호(order_id), 
-상품명(product_name), 가격(unit_price) 이 3개 컬럼만 딱 남긴 데이터프레임을 만드세요.
+payment_method가 **'card'**인 것만 골라내세요.
+주문번호(order_id), 상품명(product_name), 가격(unit_price) 3개 컬럼만 남겨서 출력하세요.
 
 Q3.
-students.csv 데이터를 로드하세요. 지역(region)이 'SEOUL' 이면서 동시에(&) 고객유형(segment)이 'new' 인 학생을 찾으세요. 
-그리고 이 학생들을 **가입일(signup_date) 기준 최신순(내림차순)**으로 정렬해서 출력하세요.
+지역(region)이 'SEOUL' 이고(&) 고객유형(segment)이 'new' 인 학생을 찾으세요.
+**가입일(signup_date) 기준 최신순(내림차순)**으로 정렬해서 출력하세요.
