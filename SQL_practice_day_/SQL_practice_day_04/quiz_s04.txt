@@ -1,0 +1,13 @@
+사용할 테이블: students, enrollments, courses, payments
+
+Q1.
+학생들이 가장 많이 수강 신청한 **강의 제목(title)**과 수강생 수를 구하고 싶습니다. 
+(enrollments 테이블과 courses 테이블을 조인해서, 수강생이 많은 순서대로 정렬해 보세요.)
+
+Q2.
+학생별로 결제한 총금액(amount의 합)을 구하고, **가장 많은 금액을 지출한 학생의 이름(name)**과 총금액을 출력하세요. 
+(students와 payments 테이블을 조인해야겠죠?)
+
+Q3.
+enrollments 테이블에는 있는데(수강 신청 함), payments 테이블에는 내역이 없는(결제 안 함) 학생들의 student_id를 찾아보세요. 
+(LEFT JOIN을 쓰고 WHERE 절에서 NULL을 찾아야 합니다.)

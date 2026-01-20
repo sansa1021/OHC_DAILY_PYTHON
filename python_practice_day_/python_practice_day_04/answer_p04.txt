@@ -1,0 +1,22 @@
+Q.1
+logs = ["hit:100", "miss:0", "hit:50", "hit:30"]
+def damage(log_text):
+    p = log_text.split(':')
+    d = int(p[1]) 
+    return d
+result = list(map(damage, logs))
+print(result)
+
+Q.2
+class_a = ["산사", "잼민이", "철수"]
+class_b = ["철수", "영희", "산사"]
+print(list(set(class_a + class_b)))
+
+Q.3
+scores = {"산사": 90, "잼민이": 75, "영희": 85, "철수": 50}
+pa_students = []
+pairs = list(scores.items())
+for name, score in scores.items():
+    if score >= 80:
+        pa_students.append(name)
+print(pa_students)
