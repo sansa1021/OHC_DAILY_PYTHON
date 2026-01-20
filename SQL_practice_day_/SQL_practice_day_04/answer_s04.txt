@@ -1,0 +1,31 @@
+Q1.
+select 
+    course_name as title,
+    count(student_id) as c_students
+from enrollments e
+left join courses c
+ON e.course_id = c.course_id
+group by course_name
+order by c_students desc;
+#ㄴ pk와 fk개념을 오락가락해서 살짝 와리가리하고, join할때 별칭 지정안해서 망할뻔...
+
+Q2.
+select 
+    course_name as title,
+    count(student_id) as c_students
+from enrollments e
+left join courses c
+ON e.course_id = c.course_id
+group by course_name
+having count(student_id) <= 4
+order by c_students desc;
+
+Q3.
+select student_id
+from enrollments
+where course_id = (
+    select course_id
+    from courses
+    where course_name = 'SQL_Fundamentals'
+);
+#join 없이 테이블을 합치는 서브쿼리...이게 더 쉬운거 같기도하고?

@@ -5,9 +5,8 @@ Q1.
 (enrollments 테이블과 courses 테이블을 조인해서, 수강생이 많은 순서대로 정렬해 보세요.)
 
 Q2.
-학생별로 결제한 총금액(amount의 합)을 구하고, **가장 많은 금액을 지출한 학생의 이름(name)**과 총금액을 출력하세요. 
-(students와 payments 테이블을 조인해야겠죠?)
+수강 신청한 학생 수가 **4명 이하(<= 4)**인 **"인기 없는 강의"**의 제목과 학생 수만 골라내 보세요.
 
 Q3.
-enrollments 테이블에는 있는데(수강 신청 함), payments 테이블에는 내역이 없는(결제 안 함) 학생들의 student_id를 찾아보세요. 
-(LEFT JOIN을 쓰고 WHERE 절에서 NULL을 찾아야 합니다.)
+enrollments 테이블에서 학생을 찾을 건데, 우리가 과목 번호를 모른다고 가정하고 
+'SQL_Fundamentals' 과목의 course_id를 서브쿼리로 찾아서, 그 과목을 듣는 학생들의 **student_id**를 모두 출력해주세요!
